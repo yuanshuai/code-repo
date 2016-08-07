@@ -3,13 +3,10 @@ package com.frey.repo;
 import com.alibaba.fastjson.JSON;
 import org.pcap4j.core.*;
 import org.pcap4j.packet.*;
-import org.pcap4j.packet.factory.PacketFactories;
-import org.pcap4j.packet.namednumber.DataLinkType;
 import org.pcap4j.packet.namednumber.EtherType;
 import org.pcap4j.packet.namednumber.IpNumber;
 
-import java.io.*;
-import java.util.List;
+import java.io.IOException;
 
 /**
  * Created by v1daddy on 16/8/6.
